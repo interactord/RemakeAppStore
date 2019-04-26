@@ -7,128 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		298D29A722732FC200183D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29A622732FC200183D41 /* AppDelegate.swift */; };
-		298D29AE22732FC300183D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D29AD22732FC300183D41 /* Assets.xcassets */; };
-		298D29B122732FC300183D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D29AF22732FC300183D41 /* LaunchScreen.storyboard */; };
-		298D29BC22732FC300183D41 /* RemakeAppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29BB22732FC300183D41 /* RemakeAppStoreTests.swift */; };
-		298D29C722732FC300183D41 /* RemakeAppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29C622732FC300183D41 /* RemakeAppStoreUITests.swift */; };
+		298D29E2227348B500183D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29E1227348B500183D41 /* AppDelegate.swift */; };
+		298D29E9227348B600183D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D29E8227348B600183D41 /* Assets.xcassets */; };
+		298D29EC227348B600183D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D29EA227348B600183D41 /* LaunchScreen.storyboard */; };
+		298D29F7227348B600183D41 /* RemakeAppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */; };
+		298D2A02227348B600183D41 /* RemakeAppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2A01227348B600183D41 /* RemakeAppStoreUITests.swift */; };
+		5F58EC4C660A7B64E3362505 /* Pods_RemakeAppStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */; };
+		7B03D9E136605ACAE9FDECBE /* Pods_RemakeAppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */; };
+		A63A7DD2DF29B234DA35CB23 /* Pods_RemakeAppStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		298D29B822732FC300183D41 /* PBXContainerItemProxy */ = {
+		298D29F3227348B600183D41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 298D299B22732FC200183D41 /* Project object */;
+			containerPortal = 298D29D6227348B500183D41 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 298D29A222732FC200183D41;
+			remoteGlobalIDString = 298D29DD227348B500183D41;
 			remoteInfo = RemakeAppStore;
 		};
-		298D29C322732FC300183D41 /* PBXContainerItemProxy */ = {
+		298D29FE227348B600183D41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 298D299B22732FC200183D41 /* Project object */;
+			containerPortal = 298D29D6227348B500183D41 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 298D29A222732FC200183D41;
+			remoteGlobalIDString = 298D29DD227348B500183D41;
 			remoteInfo = RemakeAppStore;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		298D29A322732FC200183D41 /* RemakeAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemakeAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		298D29A622732FC200183D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		298D29AD22732FC300183D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		298D29B022732FC300183D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		298D29B222732FC300183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298D29B722732FC300183D41 /* RemakeAppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		298D29BB22732FC300183D41 /* RemakeAppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreTests.swift; sourceTree = "<group>"; };
-		298D29BD22732FC300183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298D29C222732FC300183D41 /* RemakeAppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		298D29C622732FC300183D41 /* RemakeAppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreUITests.swift; sourceTree = "<group>"; };
-		298D29C822732FC300183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0181C8163F1AA35CDAE1D6FD /* Pods-RemakeAppStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		026107187F1C85E8E16202C5 /* Pods-RemakeAppStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreUITests/Pods-RemakeAppStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B29E139C8F2BBA8AEEC7E9D /* Pods-RemakeAppStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreUITests/Pods-RemakeAppStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298D29DE227348B500183D41 /* RemakeAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemakeAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298D29E1227348B500183D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		298D29E8227348B600183D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		298D29EB227348B600183D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		298D29ED227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298D29F2227348B600183D41 /* RemakeAppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreTests.swift; sourceTree = "<group>"; };
+		298D29F8227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298D29FD227348B600183D41 /* RemakeAppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298D2A01227348B600183D41 /* RemakeAppStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreUITests.swift; sourceTree = "<group>"; };
+		298D2A03227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreTests.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		298D29A022732FC200183D41 /* Frameworks */ = {
+		298D29DB227348B500183D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B03D9E136605ACAE9FDECBE /* Pods_RemakeAppStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29B422732FC300183D41 /* Frameworks */ = {
+		298D29EF227348B600183D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F58EC4C660A7B64E3362505 /* Pods_RemakeAppStoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29BF22732FC300183D41 /* Frameworks */ = {
+		298D29FA227348B600183D41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63A7DD2DF29B234DA35CB23 /* Pods_RemakeAppStoreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		298D299A22732FC200183D41 = {
+		298D29D5227348B500183D41 = {
 			isa = PBXGroup;
 			children = (
-				298D29A522732FC200183D41 /* RemakeAppStore */,
-				298D29BA22732FC300183D41 /* RemakeAppStoreTests */,
-				298D29C522732FC300183D41 /* RemakeAppStoreUITests */,
-				298D29A422732FC200183D41 /* Products */,
+				298D29E0227348B500183D41 /* RemakeAppStore */,
+				298D29F5227348B600183D41 /* RemakeAppStoreTests */,
+				298D2A00227348B600183D41 /* RemakeAppStoreUITests */,
+				298D29DF227348B500183D41 /* Products */,
+				C354CF50629B3C498C595729 /* Pods */,
+				A165195DB6BD5A35FD6B2914 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		298D29A422732FC200183D41 /* Products */ = {
+		298D29DF227348B500183D41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				298D29A322732FC200183D41 /* RemakeAppStore.app */,
-				298D29B722732FC300183D41 /* RemakeAppStoreTests.xctest */,
-				298D29C222732FC300183D41 /* RemakeAppStoreUITests.xctest */,
+				298D29DE227348B500183D41 /* RemakeAppStore.app */,
+				298D29F2227348B600183D41 /* RemakeAppStoreTests.xctest */,
+				298D29FD227348B600183D41 /* RemakeAppStoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		298D29A522732FC200183D41 /* RemakeAppStore */ = {
+		298D29E0227348B500183D41 /* RemakeAppStore */ = {
 			isa = PBXGroup;
 			children = (
-				298D29A622732FC200183D41 /* AppDelegate.swift */,
-				298D29AD22732FC300183D41 /* Assets.xcassets */,
-				298D29AF22732FC300183D41 /* LaunchScreen.storyboard */,
-				298D29B222732FC300183D41 /* Info.plist */,
+				298D29E1227348B500183D41 /* AppDelegate.swift */,
+				298D29E8227348B600183D41 /* Assets.xcassets */,
+				298D29EA227348B600183D41 /* LaunchScreen.storyboard */,
+				298D29ED227348B600183D41 /* Info.plist */,
 			);
 			path = RemakeAppStore;
 			sourceTree = "<group>";
 		};
-		298D29BA22732FC300183D41 /* RemakeAppStoreTests */ = {
+		298D29F5227348B600183D41 /* RemakeAppStoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				298D29BB22732FC300183D41 /* RemakeAppStoreTests.swift */,
-				298D29BD22732FC300183D41 /* Info.plist */,
+				298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */,
+				298D29F8227348B600183D41 /* Info.plist */,
 			);
 			path = RemakeAppStoreTests;
 			sourceTree = "<group>";
 		};
-		298D29C522732FC300183D41 /* RemakeAppStoreUITests */ = {
+		298D2A00227348B600183D41 /* RemakeAppStoreUITests */ = {
 			isa = PBXGroup;
 			children = (
-				298D29C622732FC300183D41 /* RemakeAppStoreUITests.swift */,
-				298D29C822732FC300183D41 /* Info.plist */,
+				298D2A01227348B600183D41 /* RemakeAppStoreUITests.swift */,
+				298D2A03227348B600183D41 /* Info.plist */,
 			);
 			path = RemakeAppStoreUITests;
+			sourceTree = "<group>";
+		};
+		A165195DB6BD5A35FD6B2914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */,
+				277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */,
+				204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C354CF50629B3C498C595729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */,
+				9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */,
+				0181C8163F1AA35CDAE1D6FD /* Pods-RemakeAppStoreTests.debug.xcconfig */,
+				5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */,
+				026107187F1C85E8E16202C5 /* Pods-RemakeAppStoreUITests.debug.xcconfig */,
+				1B29E139C8F2BBA8AEEC7E9D /* Pods-RemakeAppStoreUITests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		298D29A222732FC200183D41 /* RemakeAppStore */ = {
+		298D29DD227348B500183D41 /* RemakeAppStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298D29CB22732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStore" */;
+			buildConfigurationList = 298D2A06227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStore" */;
 			buildPhases = (
-				298D299F22732FC200183D41 /* Sources */,
-				298D29A022732FC200183D41 /* Frameworks */,
-				298D29A122732FC200183D41 /* Resources */,
+				AB382A82549B0B94CB37E7A2 /* [CP] Check Pods Manifest.lock */,
+				298D2A0F227348C600183D41 /* Swift Lint */,
+				298D29DA227348B500183D41 /* Sources */,
+				298D29DB227348B500183D41 /* Frameworks */,
+				298D29DC227348B500183D41 /* Resources */,
+				9D562E62A051050264C1A4A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,69 +179,72 @@
 			);
 			name = RemakeAppStore;
 			productName = RemakeAppStore;
-			productReference = 298D29A322732FC200183D41 /* RemakeAppStore.app */;
+			productReference = 298D29DE227348B500183D41 /* RemakeAppStore.app */;
 			productType = "com.apple.product-type.application";
 		};
-		298D29B622732FC300183D41 /* RemakeAppStoreTests */ = {
+		298D29F1227348B600183D41 /* RemakeAppStoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298D29CE22732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreTests" */;
+			buildConfigurationList = 298D2A09227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreTests" */;
 			buildPhases = (
-				298D29B322732FC300183D41 /* Sources */,
-				298D29B422732FC300183D41 /* Frameworks */,
-				298D29B522732FC300183D41 /* Resources */,
+				893F41D00C6915FFB5180C85 /* [CP] Check Pods Manifest.lock */,
+				298D29EE227348B600183D41 /* Sources */,
+				298D29EF227348B600183D41 /* Frameworks */,
+				298D29F0227348B600183D41 /* Resources */,
+				0A5D71B9F9173E08299C204A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				298D29B922732FC300183D41 /* PBXTargetDependency */,
+				298D29F4227348B600183D41 /* PBXTargetDependency */,
 			);
 			name = RemakeAppStoreTests;
 			productName = RemakeAppStoreTests;
-			productReference = 298D29B722732FC300183D41 /* RemakeAppStoreTests.xctest */;
+			productReference = 298D29F2227348B600183D41 /* RemakeAppStoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		298D29C122732FC300183D41 /* RemakeAppStoreUITests */ = {
+		298D29FC227348B600183D41 /* RemakeAppStoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298D29D122732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreUITests" */;
+			buildConfigurationList = 298D2A0C227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreUITests" */;
 			buildPhases = (
-				298D29BE22732FC300183D41 /* Sources */,
-				298D29BF22732FC300183D41 /* Frameworks */,
-				298D29C022732FC300183D41 /* Resources */,
+				EC93E779251798589AB9BC45 /* [CP] Check Pods Manifest.lock */,
+				298D29F9227348B600183D41 /* Sources */,
+				298D29FA227348B600183D41 /* Frameworks */,
+				298D29FB227348B600183D41 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				298D29C422732FC300183D41 /* PBXTargetDependency */,
+				298D29FF227348B600183D41 /* PBXTargetDependency */,
 			);
 			name = RemakeAppStoreUITests;
 			productName = RemakeAppStoreUITests;
-			productReference = 298D29C222732FC300183D41 /* RemakeAppStoreUITests.xctest */;
+			productReference = 298D29FD227348B600183D41 /* RemakeAppStoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		298D299B22732FC200183D41 /* Project object */ = {
+		298D29D6227348B500183D41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Scott Moon";
 				TargetAttributes = {
-					298D29A222732FC200183D41 = {
+					298D29DD227348B500183D41 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					298D29B622732FC300183D41 = {
+					298D29F1227348B600183D41 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 298D29A222732FC200183D41;
+						TestTargetID = 298D29DD227348B500183D41;
 					};
-					298D29C122732FC300183D41 = {
+					298D29FC227348B600183D41 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 298D29A222732FC200183D41;
+						TestTargetID = 298D29DD227348B500183D41;
 					};
 				};
 			};
-			buildConfigurationList = 298D299E22732FC200183D41 /* Build configuration list for PBXProject "RemakeAppStore" */;
+			buildConfigurationList = 298D29D9227348B500183D41 /* Build configuration list for PBXProject "RemakeAppStore" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,36 +252,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 298D299A22732FC200183D41;
-			productRefGroup = 298D29A422732FC200183D41 /* Products */;
+			mainGroup = 298D29D5227348B500183D41;
+			productRefGroup = 298D29DF227348B500183D41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				298D29A222732FC200183D41 /* RemakeAppStore */,
-				298D29B622732FC300183D41 /* RemakeAppStoreTests */,
-				298D29C122732FC300183D41 /* RemakeAppStoreUITests */,
+				298D29DD227348B500183D41 /* RemakeAppStore */,
+				298D29F1227348B600183D41 /* RemakeAppStoreTests */,
+				298D29FC227348B600183D41 /* RemakeAppStoreUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		298D29A122732FC200183D41 /* Resources */ = {
+		298D29DC227348B500183D41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29B122732FC300183D41 /* LaunchScreen.storyboard in Resources */,
-				298D29AE22732FC300183D41 /* Assets.xcassets in Resources */,
+				298D29EC227348B600183D41 /* LaunchScreen.storyboard in Resources */,
+				298D29E9227348B600183D41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29B522732FC300183D41 /* Resources */ = {
+		298D29F0227348B600183D41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29C022732FC300183D41 /* Resources */ = {
+		298D29FB227348B600183D41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,51 +290,188 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5D71B9F9173E08299C204A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298D2A0F227348C600183D41 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		893F41D00C6915FFB5180C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemakeAppStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D562E62A051050264C1A4A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB382A82549B0B94CB37E7A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemakeAppStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC93E779251798589AB9BC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemakeAppStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		298D299F22732FC200183D41 /* Sources */ = {
+		298D29DA227348B500183D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29A722732FC200183D41 /* AppDelegate.swift in Sources */,
+				298D29E2227348B500183D41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29B322732FC300183D41 /* Sources */ = {
+		298D29EE227348B600183D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29BC22732FC300183D41 /* RemakeAppStoreTests.swift in Sources */,
+				298D29F7227348B600183D41 /* RemakeAppStoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		298D29BE22732FC300183D41 /* Sources */ = {
+		298D29F9227348B600183D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29C722732FC300183D41 /* RemakeAppStoreUITests.swift in Sources */,
+				298D2A02227348B600183D41 /* RemakeAppStoreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		298D29B922732FC300183D41 /* PBXTargetDependency */ = {
+		298D29F4227348B600183D41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 298D29A222732FC200183D41 /* RemakeAppStore */;
-			targetProxy = 298D29B822732FC300183D41 /* PBXContainerItemProxy */;
+			target = 298D29DD227348B500183D41 /* RemakeAppStore */;
+			targetProxy = 298D29F3227348B600183D41 /* PBXContainerItemProxy */;
 		};
-		298D29C422732FC300183D41 /* PBXTargetDependency */ = {
+		298D29FF227348B600183D41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 298D29A222732FC200183D41 /* RemakeAppStore */;
-			targetProxy = 298D29C322732FC300183D41 /* PBXContainerItemProxy */;
+			target = 298D29DD227348B500183D41 /* RemakeAppStore */;
+			targetProxy = 298D29FE227348B600183D41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		298D29AF22732FC300183D41 /* LaunchScreen.storyboard */ = {
+		298D29EA227348B600183D41 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				298D29B022732FC300183D41 /* Base */,
+				298D29EB227348B600183D41 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -296,7 +479,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		298D29C922732FC300183D41 /* Debug */ = {
+		298D2A04227348B600183D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		298D29CA22732FC300183D41 /* Release */ = {
+		298D2A05227348B600183D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,12 +595,13 @@
 			};
 			name = Release;
 		};
-		298D29CC22732FC300183D41 /* Debug */ = {
+		298D2A07227348B600183D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FNDVP9SLK2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RemakeAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,16 +610,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RemakeAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		298D29CD22732FC300183D41 /* Release */ = {
+		298D2A08227348B600183D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FNDVP9SLK2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RemakeAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,14 +629,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.RemakeAppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		298D29CF22732FC300183D41 /* Debug */ = {
+		298D2A0A227348B600183D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0181C8163F1AA35CDAE1D6FD /* Pods-RemakeAppStoreTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNDVP9SLK2;
@@ -469,10 +655,11 @@
 			};
 			name = Debug;
 		};
-		298D29D022732FC300183D41 /* Release */ = {
+		298D2A0B227348B600183D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNDVP9SLK2;
@@ -490,10 +677,11 @@
 			};
 			name = Release;
 		};
-		298D29D222732FC300183D41 /* Debug */ = {
+		298D2A0D227348B600183D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026107187F1C85E8E16202C5 /* Pods-RemakeAppStoreUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNDVP9SLK2;
 				INFOPLIST_FILE = RemakeAppStoreUITests/Info.plist;
@@ -510,10 +698,11 @@
 			};
 			name = Debug;
 		};
-		298D29D322732FC300183D41 /* Release */ = {
+		298D2A0E227348B600183D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B29E139C8F2BBA8AEEC7E9D /* Pods-RemakeAppStoreUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FNDVP9SLK2;
 				INFOPLIST_FILE = RemakeAppStoreUITests/Info.plist;
@@ -533,43 +722,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		298D299E22732FC200183D41 /* Build configuration list for PBXProject "RemakeAppStore" */ = {
+		298D29D9227348B500183D41 /* Build configuration list for PBXProject "RemakeAppStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298D29C922732FC300183D41 /* Debug */,
-				298D29CA22732FC300183D41 /* Release */,
+				298D2A04227348B600183D41 /* Debug */,
+				298D2A05227348B600183D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298D29CB22732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStore" */ = {
+		298D2A06227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298D29CC22732FC300183D41 /* Debug */,
-				298D29CD22732FC300183D41 /* Release */,
+				298D2A07227348B600183D41 /* Debug */,
+				298D2A08227348B600183D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298D29CE22732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreTests" */ = {
+		298D2A09227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298D29CF22732FC300183D41 /* Debug */,
-				298D29D022732FC300183D41 /* Release */,
+				298D2A0A227348B600183D41 /* Debug */,
+				298D2A0B227348B600183D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298D29D122732FC300183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreUITests" */ = {
+		298D2A0C227348B600183D41 /* Build configuration list for PBXNativeTarget "RemakeAppStoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298D29D222732FC300183D41 /* Debug */,
-				298D29D322732FC300183D41 /* Release */,
+				298D2A0D227348B600183D41 /* Debug */,
+				298D2A0E227348B600183D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 298D299B22732FC200183D41 /* Project object */;
+	rootObject = 298D29D6227348B500183D41 /* Project object */;
 }
