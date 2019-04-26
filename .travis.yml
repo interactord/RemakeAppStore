@@ -20,10 +20,13 @@ before_script:
 
 script:
   - set -o pipefail
-  - xcodebuild clean build
+  - xcodebuild clean build test
     -workspace "$PROJECT"
     -scheme "$SCHEME"
     -sdk "$IOS_SDK"
     -destination "$DESTINATION"
     -configuration Debug
     CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty -c
+
+after_success:
+- bash <(curl -s https://codecov.io/bash) -J 'RemakeAppStore'

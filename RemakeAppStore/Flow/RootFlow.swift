@@ -15,6 +15,12 @@ class RootFlow {
 
 	private let disposeBag = DisposeBag()
 	private let coordinator = FlowCoordinator()
+	private let service: Service
+
+	// MARK: - Initializing
+	init(_ service: Service) {
+		self.service = service
+	}
 
 	deinit {
 		print("\(type(of: self)): \(#function)")
@@ -24,15 +30,16 @@ class RootFlow {
 extension RootFlow {
 
 	public func onDebugNavigate() {
+		let logger = service.logger
 
 		self.coordinator.rx.willNavigate
 			.subscribe(onNext: {
-				print("will navigate to flow=\($0) and step=\($0)")
+				logger.log(level: .info, message: "will navigate to flow=\($0) and step=\($0)")
 			}).disposed(by: disposeBag)
 
 		self.coordinator.rx.didNavigate
 			.subscribe(onNext: {
-				print("did navigate to flow=\($0) and step=\($0)")
+				logger.log(level: .info, message: "did navigate to flow=\($0) and step=\($0)")
 			}).disposed(by: disposeBag)
 
 	}
