@@ -19,8 +19,10 @@
 		F426E511A1E264BFD4189251 /* DashboardFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */; };
 		F426E57FE38B3E377DAF5AF0 /* RootFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDFC8AB50D4AB3182159 /* RootFlow.swift */; };
 		F426E86E58707398556EAAA6 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EAB622FF54AA2211A9BF /* DashboardController.swift */; };
+		F426EAABC4C1385DF214EE36 /* Containable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDAEDADAD88FEC3C42D9 /* Containable.swift */; };
 		F426EBF53483C6A1E1A6D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F426E7371D402803C9A4DA28 /* Assets.xcassets */; };
 		F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */; };
+		F426ECE18E64E955BD4D059F /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E012222F216F3DFF1BE7 /* ServiceContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,7 @@
 		5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreTests.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.release.xcconfig"; sourceTree = "<group>"; };
+		F426E012222F216F3DFF1BE7 /* ServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
 		F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardFlow.swift; sourceTree = "<group>"; };
 		F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F426E47422C40B34E97802E7 /* AppStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchFLow.swift; sourceTree = "<group>"; };
 		F426EAB622FF54AA2211A9BF /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchStepper.swift; sourceTree = "<group>"; };
+		F426EDAEDADAD88FEC3C42D9 /* Containable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Containable.swift; sourceTree = "<group>"; };
 		F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F426EDFC8AB50D4AB3182159 /* RootFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +130,7 @@
 				F426EF763417B8328352190D /* Scenes */,
 				F426E5B37A30E00EF3E1DF0F /* zResources */,
 				F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */,
+				F426E8B7B0348E82D1AC897A /* Container */,
 			);
 			path = RemakeAppStore;
 			sourceTree = "<group>";
@@ -196,6 +201,15 @@
 				F426E91DDBB4B8B5359E3559 /* Info.plist */,
 			);
 			path = zResources;
+			sourceTree = "<group>";
+		};
+		F426E8B7B0348E82D1AC897A /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				F426EDAEDADAD88FEC3C42D9 /* Containable.swift */,
+				F426E012222F216F3DFF1BE7 /* ServiceContainer.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 		F426E9B96AD8F248AC8B31DF /* Flow */ = {
@@ -436,6 +450,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxFlow/RxFlow.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -445,6 +460,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFlow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -509,6 +525,8 @@
 				F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */,
 				F426E13FE355A1791760E6B2 /* LaunchStepper.swift in Sources */,
 				F426E159E6FA112C3F346A3E /* AppDelegate.swift in Sources */,
+				F426EAABC4C1385DF214EE36 /* Containable.swift in Sources */,
+				F426ECE18E64E955BD4D059F /* ServiceContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

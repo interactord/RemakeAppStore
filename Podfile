@@ -9,6 +9,7 @@ target 'RemakeAppStore' do
   pod 'RxCocoa', '~> 4.0'
   pod 'RxFlow'
   pod 'SwiftyBeaver'
+  pod 'Swinject', '~> 2.6.0'
 
   target 'RemakeAppStoreTests' do
     inherit! :search_paths
