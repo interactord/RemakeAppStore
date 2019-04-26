@@ -20,7 +20,7 @@ before_script:
 
 script:
   - set -o pipefail
-  - xcodebuild clean build
+  - xcodebuild clean build test
     -workspace "$PROJECT"
     -scheme "$SCHEME"
     -sdk "$IOS_SDK"

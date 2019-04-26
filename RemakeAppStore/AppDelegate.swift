@@ -9,7 +9,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-  let rootFlow = RootFlow()
+  let serviceContainer = ServiceContainer()
+  lazy var rootFlow = RootFlow(serviceContainer.getService())
 
   static let shared: AppDelegate = {
     guard let shared = UIApplication.shared.delegate as? AppDelegate else {
