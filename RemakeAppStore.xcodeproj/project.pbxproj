@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		298D29E2227348B500183D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29E1227348B500183D41 /* AppDelegate.swift */; };
-		298D29E9227348B600183D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298D29E8227348B600183D41 /* Assets.xcassets */; };
-		298D29EC227348B600183D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D29EA227348B600183D41 /* LaunchScreen.storyboard */; };
 		298D29F7227348B600183D41 /* RemakeAppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */; };
 		298D2A02227348B600183D41 /* RemakeAppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D2A01227348B600183D41 /* RemakeAppStoreUITests.swift */; };
 		5F58EC4C660A7B64E3362505 /* Pods_RemakeAppStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */; };
 		7B03D9E136605ACAE9FDECBE /* Pods_RemakeAppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */; };
 		A63A7DD2DF29B234DA35CB23 /* Pods_RemakeAppStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */; };
+		F426E09BD8EDDAF8853781E7 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E47422C40B34E97802E7 /* AppStep.swift */; };
+		F426E0FE92C95C13BACD821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */; };
+		F426E13FE355A1791760E6B2 /* LaunchStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */; };
+		F426E159E6FA112C3F346A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */; };
+		F426E511A1E264BFD4189251 /* DashboardFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */; };
+		F426E57FE38B3E377DAF5AF0 /* RootFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDFC8AB50D4AB3182159 /* RootFlow.swift */; };
+		F426E86E58707398556EAAA6 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EAB622FF54AA2211A9BF /* DashboardController.swift */; };
+		F426EBF53483C6A1E1A6D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F426E7371D402803C9A4DA28 /* Assets.xcassets */; };
+		F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +47,6 @@
 		204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D29DE227348B500183D41 /* RemakeAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemakeAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		298D29E1227348B500183D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		298D29E8227348B600183D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		298D29EB227348B600183D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		298D29ED227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		298D29F2227348B600183D41 /* RemakeAppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreTests.swift; sourceTree = "<group>"; };
 		298D29F8227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,16 @@
 		5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreTests.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.release.xcconfig"; sourceTree = "<group>"; };
+		F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardFlow.swift; sourceTree = "<group>"; };
+		F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F426E47422C40B34E97802E7 /* AppStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		F426E7371D402803C9A4DA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F426E91DDBB4B8B5359E3559 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchFLow.swift; sourceTree = "<group>"; };
+		F426EAB622FF54AA2211A9BF /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchStepper.swift; sourceTree = "<group>"; };
+		F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F426EDFC8AB50D4AB3182159 /* RootFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +122,10 @@
 		298D29E0227348B500183D41 /* RemakeAppStore */ = {
 			isa = PBXGroup;
 			children = (
-				298D29E1227348B500183D41 /* AppDelegate.swift */,
-				298D29E8227348B600183D41 /* Assets.xcassets */,
-				298D29EA227348B600183D41 /* LaunchScreen.storyboard */,
-				298D29ED227348B600183D41 /* Info.plist */,
+				F426E9B96AD8F248AC8B31DF /* Flow */,
+				F426EF763417B8328352190D /* Scenes */,
+				F426E5B37A30E00EF3E1DF0F /* zResources */,
+				F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */,
 			);
 			path = RemakeAppStore;
 			sourceTree = "<group>";
@@ -157,6 +169,60 @@
 				1B29E139C8F2BBA8AEEC7E9D /* Pods-RemakeAppStoreUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F426E0EE7A84654E91401BF2 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F426EAB622FF54AA2211A9BF /* DashboardController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F426E24B127659CBFC594DC8 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */,
+				F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F426E5B37A30E00EF3E1DF0F /* zResources */ = {
+			isa = PBXGroup;
+			children = (
+				F426E7371D402803C9A4DA28 /* Assets.xcassets */,
+				F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */,
+				F426E91DDBB4B8B5359E3559 /* Info.plist */,
+			);
+			path = zResources;
+			sourceTree = "<group>";
+		};
+		F426E9B96AD8F248AC8B31DF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				F426EDFC8AB50D4AB3182159 /* RootFlow.swift */,
+				F426E47422C40B34E97802E7 /* AppStep.swift */,
+				F426E24B127659CBFC594DC8 /* Launch */,
+				F426EBA322C22451B86C56AC /* Dashboard */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		F426EBA322C22451B86C56AC /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F426EF763417B8328352190D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F426E0EE7A84654E91401BF2 /* Dashboard */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +335,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29EC227348B600183D41 /* LaunchScreen.storyboard in Resources */,
-				298D29E9227348B600183D41 /* Assets.xcassets in Resources */,
+				F426EBF53483C6A1E1A6D821 /* Assets.xcassets in Resources */,
+				F426E0FE92C95C13BACD821D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +433,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFlow/RxFlow.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFlow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,7 +502,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				298D29E2227348B500183D41 /* AppDelegate.swift in Sources */,
+				F426E57FE38B3E377DAF5AF0 /* RootFlow.swift in Sources */,
+				F426E86E58707398556EAAA6 /* DashboardController.swift in Sources */,
+				F426E09BD8EDDAF8853781E7 /* AppStep.swift in Sources */,
+				F426E511A1E264BFD4189251 /* DashboardFlow.swift in Sources */,
+				F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */,
+				F426E13FE355A1791760E6B2 /* LaunchStepper.swift in Sources */,
+				F426E159E6FA112C3F346A3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,17 +542,6 @@
 			targetProxy = 298D29FE227348B600183D41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		298D29EA227348B600183D41 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				298D29EB227348B600183D41 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		298D2A04227348B600183D41 /* Debug */ = {
@@ -602,7 +667,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RemakeAppStore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RemakeAppStore/zResources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -621,7 +686,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RemakeAppStore/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RemakeAppStore/zResources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
