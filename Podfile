@@ -21,9 +21,4 @@ target 'RemakeAppStore' do
 
   end
 
-  target 'RemakeAppStoreUITests' do
-    inherit! :search_paths
-
-  end
-
 end
