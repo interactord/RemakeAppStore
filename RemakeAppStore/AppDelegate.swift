@@ -1,9 +1,6 @@
 //
-//  AppDelegate.swift
-//  RemakeAppStore
-//
-//  Created by Scott Moon on 26/04/2019.
-//  Copyright © 2019 Scott Moon. All rights reserved.
+// Created by Scott Moon on 2019-04-27.
+// Copyright (c) 2019 Scott Moon. All rights reserved.
 //
 
 import UIKit
@@ -12,17 +9,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
+  let rootFlow = RootFlow()
+
+  static let shared: AppDelegate = {
+    guard let shared = UIApplication.shared.delegate as? AppDelegate else {
+      fatalError("Cannot case  `UIApplication.shared.delegate` to `AppDelegate`")
+    }
+    return shared
+  }()
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-    window = UIWindow(frame: UIScreen.main.bounds)
+    window = UIWindow()
 
-    let controller = UIViewController()
-    controller.view.backgroundColor = .red
+    guard let window = window else {
+      return false
+    }
 
-    window?.rootViewController = controller
-
-    window?.makeKeyAndVisible()
+    rootFlow.onDebugNavigate()
+    rootFlow.startFlow(with: window)
 
     return true
   }
