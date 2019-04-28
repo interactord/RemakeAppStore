@@ -5,69 +5,77 @@
 
 import Swinject
 
+import ServiceKitLogger
+
 final class ServiceContainer: DIContainable {
 
-	// MARK: - Private
+  // MARK: - Private
 
-	var container: Container
+  var container: Container
 
-	// MARK: - Initializing
-	init() {
-		container = Container()
-		register()
-	}
+  // MARK: - Initializing
+  init() {
+    container = Container()
+    register()
+  }
 
-	func getService() -> Service {
+  // MARK: Public
+  public func getService() -> Service {
+    guard let service = container.resolve(Service.self) else {
+      fatalError("Filed Register Service")
+    }
 
-		container.register(Service.self) { [unowned self] _ in
+    return service
+  }
+}
 
-			let service = AppService(
-				logger: self.getLogger(),
-				envManager: self.getServiceEnvManager()
-			)
-			return service
-		}.inObjectScope(.container)
+// MARK: - Private
+extension ServiceContainer {
 
-		guard let service = container.resolve(Service.self) else {
-			fatalError("Filed Register Service")
-		}
-		return service
-	}
+  private func register() {
+    registerService()
+  }
 
-	// MARK: - Private
+  private func registerAppEnvConfig() -> AppEnvConfig {
+    container.register(AppEnvConfig.self) { _ in
+      let envUrl = Bundle.main.url(forResource: "env", withExtension: "plist")
+      let parser = PlistParser()
+      guard let config: AppEnvConfig = parser.decode(envUrl) else {
+        fatalError("Failed to register at AppEnvConfig")
+      }
+      return config
+    }.inObjectScope(.container)
 
-	private func register() {
+    guard let config = container.resolve(AppEnvConfig.self) else {
+      fatalError("Filed Register AppEnvConfig")
+    }
 
-		container.register(ServiceEnvManager.self) { _ in
-			let envUrl = Bundle.main.url(forResource: "env", withExtension: "plist")
-			let manager = ServiceEnvManager(envUrl)
-			return manager
-		}.inObjectScope(.container)
+    return config
+  }
 
-		container.register(Logger.self) { resolver in
-			guard
-				let manager: ServiceEnvManager = resolver.resolve(ServiceEnvManager.self) else {
-				fatalError("Failed Register Logger")
-			}
-			let loggerConfig = manager.serviceEnv?.logger
-			let logger = AppLogger(with: loggerConfig)
-			return logger
-		}.inObjectScope(.container)
+  private func registerLogger() -> Logger {
+    container.register(Logger.self) { resolver in
+      guard let config: AppEnvConfig = resolver.resolve(AppEnvConfig.self) else {
+        fatalError("Failed Register Logger")
+      }
+      let loggerConfig = config.logger
+      let logger = AppLogger(with: loggerConfig)
+      return logger
+    }.inObjectScope(.container)
 
-	}
+    guard let logger = container.resolve(Logger.self) else {
+      fatalError("Filed Register Logger")
+    }
+    return logger
+  }
 
-	private func getServiceEnvManager() -> ServiceEnvManager {
-		guard let manager = container.resolve(ServiceEnvManager.self) else {
-			fatalError("Filed Register ServiceEnvManager")
-		}
-		return manager
-	}
-
-	private func getLogger() -> Logger {
-		guard let logger = container.resolve(Logger.self) else {
-			fatalError("Filed Register Logger")
-		}
-		return logger
-	}
-
+  private func registerService() {
+    container.register(Service.self) { _ in
+      let service = AppService(
+        appEnvConfig: self.registerAppEnvConfig(),
+        logger: self.registerLogger()
+      )
+      return service
+    }.inObjectScope(.container)
+  }
 }

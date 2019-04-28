@@ -5,7 +5,9 @@
 
 import Foundation
 
+import ServiceKitLogger
+
 protocol Service {
-	var logger: Logger { get }
-	var envManager: ServiceEnvManager { get }
+	var appEnvConfig: AppEnvConfig { get }
+	var logger: ServiceKitLogger.Logger { get }
 }
