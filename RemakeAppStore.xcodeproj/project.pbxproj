@@ -8,29 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2921D47222737C9C007A3FD8 /* env.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2921D47122737C9C007A3FD8 /* env.plist */; };
+		2977C2C62275F6980041DA41 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2977C2C52275F6980041DA41 /* test.plist */; };
 		298D29F7227348B600183D41 /* RemakeAppStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */; };
-		29C0A0CA22738D78000F358B /* ServiceEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0A0C922738D78000F358B /* ServiceEnv.swift */; };
-		29C0A0CC22738D97000F358B /* ServiceEnvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0A0CB22738D97000F358B /* ServiceEnvManager.swift */; };
 		5F58EC4C660A7B64E3362505 /* Pods_RemakeAppStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */; };
 		7B03D9E136605ACAE9FDECBE /* Pods_RemakeAppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */; };
 		F426E09BD8EDDAF8853781E7 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E47422C40B34E97802E7 /* AppStep.swift */; };
-		F426E0B285BBE70B3ECF0CD3 /* AppLoggerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDDD277264546077BE2A /* AppLoggerSpec.swift */; };
 		F426E0FE92C95C13BACD821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */; };
 		F426E13FE355A1791760E6B2 /* LaunchStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */; };
 		F426E159E6FA112C3F346A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */; };
+		F426E22577B0AA5D7124E833 /* LoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E552A706E86A83BF1D0D /* LoggerConfig.swift */; };
+		F426E3132584D388A653F188 /* PlistParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E69664B979D545193A3A /* PlistParser.swift */; };
 		F426E511A1E264BFD4189251 /* DashboardFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */; };
 		F426E57FE38B3E377DAF5AF0 /* RootFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDFC8AB50D4AB3182159 /* RootFlow.swift */; };
-		F426E6579027CB488A476FF4 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E75DC575CCB655CB5888 /* Logger.swift */; };
-		F426E6B1AA03A24394AAAF17 /* AppLoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E2595C41C0E29D1FAD43 /* AppLoggerConfig.swift */; };
+		F426E5EFD548DB26CF8B03DC /* PlistParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E1D46FBF8A8A68FDF2E0 /* PlistParserTests.swift */; };
+		F426E6E7FA7E32656B8C41B9 /* AppEnvConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E9F21305F37232BB23E6 /* AppEnvConfig.swift */; };
 		F426E86E58707398556EAAA6 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EAB622FF54AA2211A9BF /* DashboardController.swift */; };
 		F426EAABC4C1385DF214EE36 /* Containable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EDAEDADAD88FEC3C42D9 /* Containable.swift */; };
 		F426EB4FE5036CF94446FC09 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E535A27C31506C42B91C /* AppService.swift */; };
 		F426EBF53483C6A1E1A6D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F426E7371D402803C9A4DA28 /* Assets.xcassets */; };
 		F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */; };
 		F426ECE18E64E955BD4D059F /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E012222F216F3DFF1BE7 /* ServiceContainer.swift */; };
-		F426ECEC098D62B78BB5DAE6 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E769218625F0D6DF2A15 /* AppLogger.swift */; };
-		F426EDE3CE164E69C53051C8 /* ServiceEnvManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426EBFED7E3464DC64AF08E /* ServiceEnvManagerSpec.swift */; };
-		F426EF8F627CFE1C095E8611 /* LoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E44CD2F68074FC5EFF49 /* LoggerLevel.swift */; };
 		F426EFB2D625B5526010C905 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426E60598919A55058BD68F /* Service.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,34 +46,31 @@
 		204E0D9565F879086F1893C5 /* Pods_RemakeAppStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		277A50D64546887171FDC626 /* Pods_RemakeAppStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2921D47122737C9C007A3FD8 /* env.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = env.plist; sourceTree = "<group>"; };
+		2977C2C52275F6980041DA41 /* test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		298D29DE227348B500183D41 /* RemakeAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemakeAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D29F2227348B600183D41 /* RemakeAppStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemakeAppStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D29F6227348B600183D41 /* RemakeAppStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemakeAppStoreTests.swift; sourceTree = "<group>"; };
 		298D29F8227348B600183D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C0A0C922738D78000F358B /* ServiceEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEnv.swift; sourceTree = "<group>"; };
-		29C0A0CB22738D97000F358B /* ServiceEnvManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEnvManager.swift; sourceTree = "<group>"; };
 		462CD73055FA1B176BFEA79A /* Pods_RemakeAppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemakeAppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5E49DCF43649C8201EF021 /* Pods-RemakeAppStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStoreTests.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStoreTests/Pods-RemakeAppStoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		8424561D3394BFCBBC73C766 /* Pods-RemakeAppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.debug.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.debug.xcconfig"; sourceTree = "<group>"; };
 		9E1E0566CDDA8CA533AD8E3C /* Pods-RemakeAppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemakeAppStore.release.xcconfig"; path = "Target Support Files/Pods-RemakeAppStore/Pods-RemakeAppStore.release.xcconfig"; sourceTree = "<group>"; };
 		F426E012222F216F3DFF1BE7 /* ServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
-		F426E2595C41C0E29D1FAD43 /* AppLoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLoggerConfig.swift; sourceTree = "<group>"; };
+		F426E1D46FBF8A8A68FDF2E0 /* PlistParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistParserTests.swift; sourceTree = "<group>"; };
 		F426E2F57B0F3190F2E828A3 /* DashboardFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardFlow.swift; sourceTree = "<group>"; };
 		F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F426E44CD2F68074FC5EFF49 /* LoggerLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerLevel.swift; sourceTree = "<group>"; };
 		F426E47422C40B34E97802E7 /* AppStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
 		F426E535A27C31506C42B91C /* AppService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		F426E552A706E86A83BF1D0D /* LoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerConfig.swift; sourceTree = "<group>"; };
 		F426E60598919A55058BD68F /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F426E69664B979D545193A3A /* PlistParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistParser.swift; sourceTree = "<group>"; };
 		F426E7371D402803C9A4DA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F426E75DC575CCB655CB5888 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		F426E769218625F0D6DF2A15 /* AppLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
 		F426E91DDBB4B8B5359E3559 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F426E9F21305F37232BB23E6 /* AppEnvConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvConfig.swift; sourceTree = "<group>"; };
 		F426EA4DE66E51F71BA2755F /* LaunchFLow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchFLow.swift; sourceTree = "<group>"; };
 		F426EAB622FF54AA2211A9BF /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
-		F426EBFED7E3464DC64AF08E /* ServiceEnvManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceEnvManagerSpec.swift; sourceTree = "<group>"; };
 		F426ECFD0AAEB2D1698A83CD /* LaunchStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchStepper.swift; sourceTree = "<group>"; };
 		F426EDAEDADAD88FEC3C42D9 /* Containable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Containable.swift; sourceTree = "<group>"; };
-		F426EDDD277264546077BE2A /* AppLoggerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLoggerSpec.swift; sourceTree = "<group>"; };
 		F426EDDFB3D6C6DE2A71E02A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F426EDFC8AB50D4AB3182159 /* RootFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootFlow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2977C2C22275F4F40041DA41 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2977C2C52275F6980041DA41 /* test.plist */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		298D29D5227348B500183D41 = {
 			isa = PBXGroup;
 			children = (
@@ -124,12 +126,13 @@
 		298D29E0227348B500183D41 /* RemakeAppStore */ = {
 			isa = PBXGroup;
 			children = (
-				F426E9B96AD8F248AC8B31DF /* Flow */,
-				F426EF763417B8328352190D /* Scenes */,
-				F426E5B37A30E00EF3E1DF0F /* zResources */,
 				F426E31F88BBE0E1D6D30237 /* AppDelegate.swift */,
 				F426E8B7B0348E82D1AC897A /* Container */,
+				F426E9B96AD8F248AC8B31DF /* Flow */,
+				F426EF763417B8328352190D /* Scenes */,
 				F426ED0D865E7808303BEF5A /* Service */,
+				F426E80D1B80BE3471DC82DD /* Uitls */,
+				F426E5B37A30E00EF3E1DF0F /* zResources */,
 			);
 			path = RemakeAppStore;
 			sourceTree = "<group>";
@@ -164,16 +167,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		F426E0549163B81F1A51965C /* AppLogger */ = {
-			isa = PBXGroup;
-			children = (
-				F426E769218625F0D6DF2A15 /* AppLogger.swift */,
-				F426E2595C41C0E29D1FAD43 /* AppLoggerConfig.swift */,
-				F426EDDD277264546077BE2A /* AppLoggerSpec.swift */,
-			);
-			path = AppLogger;
-			sourceTree = "<group>";
-		};
 		F426E0EE7A84654E91401BF2 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,14 +195,12 @@
 			path = zResources;
 			sourceTree = "<group>";
 		};
-		F426E73377A22C0D1FF02E69 /* Logger */ = {
+		F426E80D1B80BE3471DC82DD /* Uitls */ = {
 			isa = PBXGroup;
 			children = (
-				F426E44CD2F68074FC5EFF49 /* LoggerLevel.swift */,
-				F426E0549163B81F1A51965C /* AppLogger */,
-				F426E75DC575CCB655CB5888 /* Logger.swift */,
+				F426EE7B56BEBFE101B27EF2 /* PlistParser */,
 			);
-			path = Logger;
+			path = Uitls;
 			sourceTree = "<group>";
 		};
 		F426E8B7B0348E82D1AC897A /* Container */ = {
@@ -243,22 +234,30 @@
 		F426ED0D865E7808303BEF5A /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F426E73377A22C0D1FF02E69 /* Logger */,
-				F426EDAC57DF24EDA30F9775 /* Env */,
+				F426EDAC57DF24EDA30F9775 /* EnvConfig */,
 				F426E535A27C31506C42B91C /* AppService.swift */,
 				F426E60598919A55058BD68F /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		F426EDAC57DF24EDA30F9775 /* Env */ = {
+		F426EDAC57DF24EDA30F9775 /* EnvConfig */ = {
 			isa = PBXGroup;
 			children = (
-				29C0A0CB22738D97000F358B /* ServiceEnvManager.swift */,
-				29C0A0C922738D78000F358B /* ServiceEnv.swift */,
-				F426EBFED7E3464DC64AF08E /* ServiceEnvManagerSpec.swift */,
+				F426E9F21305F37232BB23E6 /* AppEnvConfig.swift */,
+				F426E552A706E86A83BF1D0D /* LoggerConfig.swift */,
 			);
-			path = Env;
+			path = EnvConfig;
+			sourceTree = "<group>";
+		};
+		F426EE7B56BEBFE101B27EF2 /* PlistParser */ = {
+			isa = PBXGroup;
+			children = (
+				2977C2C22275F4F40041DA41 /* Mock */,
+				F426E69664B979D545193A3A /* PlistParser.swift */,
+				F426E1D46FBF8A8A68FDF2E0 /* PlistParserTests.swift */,
+			);
+			path = PlistParser;
 			sourceTree = "<group>";
 		};
 		F426EF763417B8328352190D /* Scenes */ = {
@@ -355,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2977C2C62275F6980041DA41 /* test.plist in Resources */,
 				F426EBF53483C6A1E1A6D821 /* Assets.xcassets in Resources */,
 				F426E0FE92C95C13BACD821D /* LaunchScreen.storyboard in Resources */,
 				2921D47222737C9C007A3FD8 /* env.plist in Resources */,
@@ -498,7 +498,6 @@
 			files = (
 				F426E57FE38B3E377DAF5AF0 /* RootFlow.swift in Sources */,
 				F426E86E58707398556EAAA6 /* DashboardController.swift in Sources */,
-				29C0A0CA22738D78000F358B /* ServiceEnv.swift in Sources */,
 				F426E09BD8EDDAF8853781E7 /* AppStep.swift in Sources */,
 				F426E511A1E264BFD4189251 /* DashboardFlow.swift in Sources */,
 				F426ECAE92131EDD773E08D7 /* LaunchFLow.swift in Sources */,
@@ -506,13 +505,11 @@
 				F426E159E6FA112C3F346A3E /* AppDelegate.swift in Sources */,
 				F426EAABC4C1385DF214EE36 /* Containable.swift in Sources */,
 				F426ECE18E64E955BD4D059F /* ServiceContainer.swift in Sources */,
-				F426EF8F627CFE1C095E8611 /* LoggerLevel.swift in Sources */,
-				F426ECEC098D62B78BB5DAE6 /* AppLogger.swift in Sources */,
-				F426E6B1AA03A24394AAAF17 /* AppLoggerConfig.swift in Sources */,
-				F426E6579027CB488A476FF4 /* Logger.swift in Sources */,
-				29C0A0CC22738D97000F358B /* ServiceEnvManager.swift in Sources */,
 				F426EB4FE5036CF94446FC09 /* AppService.swift in Sources */,
 				F426EFB2D625B5526010C905 /* Service.swift in Sources */,
+				F426E6E7FA7E32656B8C41B9 /* AppEnvConfig.swift in Sources */,
+				F426E22577B0AA5D7124E833 /* LoggerConfig.swift in Sources */,
+				F426E3132584D388A653F188 /* PlistParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,8 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				298D29F7227348B600183D41 /* RemakeAppStoreTests.swift in Sources */,
-				F426E0B285BBE70B3ECF0CD3 /* AppLoggerSpec.swift in Sources */,
-				F426EDE3CE164E69C53051C8 /* ServiceEnvManagerSpec.swift in Sources */,
+				F426E5EFD548DB26CF8B03DC /* PlistParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

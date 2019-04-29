@@ -5,7 +5,9 @@
 
 import Foundation
 
+import ServiceKitLogger
+
 struct AppService: Service {
-	var logger: Logger
-	var envManager: ServiceEnvManager
+  let appEnvConfig: AppEnvConfig
+	let logger: ServiceKitLogger.Logger
 }

@@ -16,6 +16,7 @@ before_script:
   - gem install xcpretty -N
   - brew update
   - brew install swiftlint || true
+  - pod cache clean --all
   - pod install
 
 script:
